@@ -1,0 +1,31 @@
+
+body {
+	background: url("../img/bg.png")
+}
+
+
+.container {
+	background: dodgerblue;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1000px;
+}
+
+
+article section {
+	width: 46%;
+	float: left;
+	padding: 2%;
+}
+
+iframe, img {
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+@media (min-width: 960px ) {
+	#home {
+		width: 300px;
+	}
+}
