@@ -5,9 +5,10 @@ body {
 
 
 .container {
-	background: dodgerblue;
+	background: #FFCCFF;
 	margin: 0 auto;
 	width: 90%;
+	height: 100%;
 	max-width: 1000px;
 }
 
@@ -18,14 +19,62 @@ article section {
 	padding: 2%;
 }
 
-iframe, img {
+
+
+iframe {
+	width: 90%;
+	padding: 0 5% 0 5%;
+}
+
+img {
+	width: 200px;
+	margin: 8% -5% 5% 5%;
+}
+
+
+.dress-making,
+.pink-skirt {
 	width: 90%;
 	margin: 0 auto;
 	padding: 10px;
 }
 
-@media (min-width: 960px ) {
-	#home {
-		width: 300px;
-	}
+a {
+	text-decoration: none;
+	color: white;
+	background-color: #383838; 
+	border-radius: 25%;
+	padding: 4px 6px 4px 6px;
 }
+
+
+li {
+	list-style-type: none;
+	display: inline;
+	float: left;
+
+}
+a:hover {
+	color:  #336699;
+
+	font-style: bold;
+}
+ p {
+ 	color:  #383838;
+ 	font: baskerville;
+ }
+ .typeform-widget {
+ 	float: left;
+ }
+
+footer {
+	padding: 5%;
+}
+
+ /*Responsive Design */
+ @media screen and (min-width: 310px) {
+ 	nav {
+ 		float: right;
+ 		margin-right: 5%;
+ 	}
+ }
