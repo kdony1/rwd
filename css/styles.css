@@ -55,8 +55,8 @@ a {
 	padding: 6px;
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 	margin: 5px 2px 0 0;
-
 }
+
 
 
 
@@ -67,7 +67,10 @@ li {
 
 a:hover {
 	color: #FFCCFF;
+
 }
+
+
 a:visited {
 	color: #FFCCFF;
 }
@@ -137,4 +140,139 @@ footer {
  	}
     
 }
+/*ANIMATIONS*/
 
+.dress-making:hover, .pink-skirt:hover  {
+ -webkit-animation: pic 1.5s .1s 1 ease-in-out;
+  -moz-animation: pic 1.5s .1s 1 ease-in-out;
+  animation: pic 1.5s .1s 1 ease-in-out;
+}
+
+@-webkit-keyframes pic {
+  0% { 
+  	transform: scale(1);
+  }
+  
+  75% {  
+  	transform: scale(1.2);
+  }
+  100% {
+  	transform: scale(1);
+  }
+}
+
+
+@-moz-keyframes pic {
+  0% { 
+  transform: scale(1);
+  }
+  75% {  
+  	transform: scale(1.2);
+  }
+  100% {
+  	transform: scale(1);
+  }
+}
+
+
+@keyframes pic {
+  0% { 
+  	transform: scale(1);
+  }
+  75% {  
+  	transform: scale(1.2);
+  }
+  100% {
+  	transform: scale(1);
+  }
+}
+
+a:hover {
+ -webkit-animation: navigation 1s 0 1 alternate;
+  -moz-animation: navigation 1s 0 1 alternate;
+  animation: navigation 1s 0 1 alternate;
+}
+
+@-webkit-keyframes navigation {
+  0% { 
+  	transform: rotate(0deg);
+  }
+  
+ 50% {  
+  	transform: rotate(-15deg);
+  }
+  100% { 
+  	transform: rotate(0deg);
+  }
+}
+
+
+@-moz-keyframes navigation {
+  0% { 
+  	transform: rotate(0deg);
+  }
+   50% {  
+  	transform: rotate(-15deg);
+  }
+  100% { 
+  	transform: rotate(0deg);
+  }
+}
+
+
+@keyframes navigation {
+  0% { 
+  	transform: rotate(0deg);
+  }
+ 50% {  
+  	transform: rotate(-15deg);
+  }
+  100% { 
+  	transform: rotate(0deg);
+  }
+}
+
+.Logo:hover {
+ -webkit-animation: Logo 1s .1s 1 alternate;
+  -moz-animation: Logo 1s .1s 1 alternate;
+  animation: Logo 1s .1s 1 alternate;
+}
+
+@-webkit-keyframes Logo {
+  0% { 
+  	transform: rotate(0deg);
+  }
+  
+  50% {  
+  	transform: rotate(15deg);
+  }
+  100% { 
+  	transform: rotate(0deg);
+  }
+}
+
+
+@-moz-keyframes Logo {
+  0% { 
+  	transform: rotate(0deg);
+  }
+  50% {  
+  	transform: rotate(15deg);
+  }
+  100% { 
+  	transform: rotate(0deg);
+  }
+}
+
+
+@keyframes Logo {
+  0% { 
+  	transform: rotate(0deg);
+  }
+ 50% {  
+  	transform: rotate(15deg);
+  }
+ 100% { 
+  	transform: rotate(0deg);
+  }
+}
